@@ -83,6 +83,23 @@ code {
     width: 60px;
     height: 60px;
   }
+  .sm-navigation-drawer-open {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 250px !important;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+  .sm-navigation-drawer-close {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 0;
+    height: 100%;
+    margin-left: 0;
+    transition: width 0.3s ease-in-out;
+  }
 }
 
 .font-size-13 {
@@ -102,6 +119,24 @@ code {
   .drawer-none {
     display: none !important;
   }
+  .md-navigation-drawer-open {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 250px !important;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .md-navigation-drawer-close {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 0;
+    height: 100%;
+    margin-left: 0;
+    transition: width 0.3s ease-in-out;
+  }
 }
 
 /* For medium Device */
@@ -116,5 +151,23 @@ code {
   .avatar-rounded {
     width: 150px;
     height: 150px;
+  }
+  .md-navigation-drawer-open {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 250px !important;
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .md-navigation-drawer-close {
+    background-color: #19222a;
+    border: none;
+    overflow-x: hidden;
+    width: 0;
+    height: 100%;
+    margin-left: 0;
+    transition: width 0.3s ease-in-out;
   }
 }

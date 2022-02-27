@@ -14,13 +14,15 @@ function App() {
   const mainRef = useRef(null);
   const [toggle, setToggle] = useState(false);
   const open = () => {
-    sidebarRef.current.className = 'navigation-drawer-open ';
+    sidebarRef.current.className =
+      'md-navigation-drawer-open sm-navigation-drawer-open';
     mainRef.current.className = 'margin-open';
     setToggle(true);
   };
 
   const close = () => {
-    sidebarRef.current.className = 'navigation-drawer-close ';
+    sidebarRef.current.className =
+      'md-navigation-drawer-close sm-navigation-drawer-close ';
     mainRef.current.className = 'margin-close';
     setToggle(false);
   };
@@ -30,7 +32,7 @@ function App() {
       <Navbar />
       <div className="d-flex">
         <div
-          className="navigation-drawer-open"
+          className="md-navigation-drawer-open sm-navigation-drawer-close"
           ref={sidebarRef}
         >
           <Sidebar />

@@ -53,7 +53,7 @@ export const Sidebar = () => {
             {menus.map((item, index) => (
               <li key={index}>
                 <a href="/">
-                  {/* <i className="ion-bag me-3">{item.icon}</i> */}
+                  <i className="ion-bag me-3">{item.icon}</i>
                   <span>{item.label}</span>
                 </a>
               </li>

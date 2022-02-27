@@ -70,25 +70,6 @@ Sidebar Nav
   background-color: rgb(24, 24, 24);
 }
 
-.navigation-drawer-open {
-  background-color: #19222a;
-  border: none;
-  overflow-x: hidden;
-  width: 250px !important;
-  height: 100%;
-  transition: width 0.3s ease-in-out;
-}
-
-.navigation-drawer-close {
-  background-color: #19222a;
-  border: none;
-  overflow-x: hidden;
-  width: 0;
-  height: 100%;
-  margin-left: 0;
-  transition: width 0.3s ease-in-out;
-}
-
 .margin-open {
   width: 100%;
   margin-left: 0;
