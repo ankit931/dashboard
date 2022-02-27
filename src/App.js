@@ -30,7 +30,7 @@ function App() {
       <Navbar />
       <div className="d-flex">
         <div
-          className="navigation-drawer-open sm-navigation-drawer-close"
+          className="navigation-drawer-open"
           ref={sidebarRef}
         >
           <Sidebar />
