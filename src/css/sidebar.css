@@ -10,7 +10,7 @@ a:hover {
 Sidebar
 ----------------*/
 .sidebar {
-  width: 250px;
+  width: 250px !important;
   height: 100vh;
   overflow: hidden;
   background-color: #19222a;
@@ -31,7 +31,7 @@ Sidebar Nav
   font-weight: 400;
   font-size: 1.2rem;
   overflow: auto;
-  z-index: 9;
+  /* z-index: 9; */
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
 }
@@ -74,7 +74,7 @@ Sidebar Nav
   background-color: #19222a;
   border: none;
   overflow-x: hidden;
-  width: 250px;
+  width: 250px !important;
   height: 100%;
   transition: width 0.3s ease-in-out;
 }
@@ -90,11 +90,13 @@ Sidebar Nav
 }
 
 .margin-open {
+  width: 100%;
   margin-left: 0;
   transition: margin-left 0.5s;
 }
 
 .margin-close {
+  width: 100%;
   margin-left: 0;
   transition: margin-left 0.5s;
 }

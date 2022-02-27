@@ -29,7 +29,10 @@ function App() {
     <div>
       <Navbar />
       <div className="d-flex">
-        <div className="navigation-drawer-open" ref={sidebarRef}>
+        <div
+          className="navigation-drawer-open sm-navigation-drawer-close"
+          ref={sidebarRef}
+        >
           <Sidebar />
         </div>
         <div className="main margin-close " ref={mainRef}>
