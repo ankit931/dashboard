@@ -10,7 +10,7 @@ a:hover {
 Sidebar
 ----------------*/
 .sidebar {
-  width: 230px;
+  width: 250px;
   height: 100vh;
   overflow: hidden;
   background-color: #19222a;
@@ -70,62 +70,27 @@ Sidebar Nav
   background-color: rgb(24, 24, 24);
 }
 
-/* .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-} */
-
-/* .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-} */
-
 .navigation-drawer-open {
   background-color: #19222a;
   border: none;
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
   overflow-x: hidden;
-  width: 220px;
+  width: 250px;
   height: 100%;
-  z-index: 1;
   transition: width 0.3s ease-in-out;
 }
 
 .navigation-drawer-close {
   background-color: #19222a;
   border: none;
-  position: fixed;
-  z-index: 1;
-  bottom: 0;
-  left: 0;
   overflow-x: hidden;
-  width: 220px;
+  width: 0;
   height: 100%;
   margin-left: 0;
   transition: width 0.3s ease-in-out;
 }
 
 .margin-open {
-  margin-left: 220px;
+  margin-left: 0;
   transition: margin-left 0.5s;
 }
 

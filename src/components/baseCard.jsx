@@ -1,20 +1,22 @@
+import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const list = [
   {
     title: 'Stroke',
     subtitle: 'Created 11/20/2020',
-    // icon: <BsThreeDotsVertical />,
+    icon: <FontAwesomeIcon icon={faEllipsisVertical} />,
   },
   {
     title: 'Stroke',
     subtitle: 'Created 11/20/2020',
-    // icon: <BsThreeDotsVertical />,
+    icon: <FontAwesomeIcon icon={faEllipsisVertical} />,
   },
   {
     title: 'Stroke',
     subtitle: 'Created 11/20/2020',
-    // icon: <BsThreeDotsVertical />,
+    icon: <FontAwesomeIcon icon={faEllipsisVertical} />,
   },
 ];
 
@@ -34,7 +36,7 @@ function BaseCard(props) {
                   {item.subtitle}
                 </div>
               </div>
-              <i className="ml-auto">{item.icon}</i>
+              <i className="ms-auto">{item.icon}</i>
             </div>
           ))}
           <div class="d-grid gap-2 mt-5">

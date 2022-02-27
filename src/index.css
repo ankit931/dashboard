@@ -71,17 +71,6 @@ code {
 
 /* For extra small Device */
 @media (max-width: 768px) {
-  /* .navbar {
-    padding-left: 0px;
-    padding-right: 0px;
-  } */
-  /* .sidebar {
-    display: none;
-  } */
-  /* .dropdown {
-    display: none !important;
-  } */
-
   .logo {
     width: 120px;
     height: 40px;
@@ -102,10 +91,6 @@ code {
 
 /* For small Device */
 @media (min-width: 768px) and (max-width: 1024px) {
-  /* .navbar {
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
   .avatar-rounded {
     margin-top: 10px;
     width: 60px;
@@ -116,9 +101,6 @@ code {
   }
   .drawer-none {
     display: none !important;
-  }
-  .sm-d-none {
-    display: none;
   }
 }
 
